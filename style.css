@@ -45,9 +45,11 @@
     right: 20px;
     font-size: 25px;
     z-index: 10000;
+    transform: scale(.9);
 }
 .ctbs p{
-    background-color: rgb(175, 241, 175);
+    background-color: green;
+    color: white;
     width: 40px;
     height: 40px;
     padding: 5px;
@@ -57,7 +59,8 @@
     transition: .5s;
 }
 .ctbs p:hover{
-    color: white !important;
-    background-color: green;
+    border: solid 1px green;
+    color: green !important;
+    background-color: white;
     cursor: pointer;
 }
